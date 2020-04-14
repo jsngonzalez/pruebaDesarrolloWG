@@ -71,44 +71,44 @@ POST /api/v1/counter
 Body: { "title": "Cafe" }
 Response:
 [
-	{ "id":: "adsf", "title": "Cafe", count: 0 }
+	{ "id": "adsf", "title": "Cafe", count: 0 }
 ]
 
 POST /api/v1/counter
 Body: { "title": "Pan" }
 Response:
 [
-	{ "id":: "asdf", "title": "Cafe", count: 0 },
-	{ "id":: "qwer", "title": "Pan", count: 0 }
+	{ "id": "asdf", "title": "Cafe", count: 0 },
+	{ "id": "qwer", "title": "Pan", count: 0 }
 ]
 
 POST /api/v1/counter/inc
-Body: { "id":: "asdf" }
+Body: { "id": "asdf" }
 Response:
 [
-	{ "id":: "asdf", "title": "Cafe", count: 1 },
-	{ "id":: "qwer", "title": "Pan", count: 0 }
+	{ "id": "asdf", "title": "Cafe", count: 1 },
+	{ "id": "qwer", "title": "Pan", count: 0 }
 ]
 
 POST /api/v1/counter/dec
-Body: { "id":: "qwer"}
+Body: { "id": "qwer"}
 Response:
 [
-	{ "id":: "asdf", "title": "Cafe", count: 1 },
-	{ "id":: "qwer", "title": "Pan", count: -1 }
+	{ "id": "asdf", "title": "Cafe", count: 1 },
+	{ "id": "qwer", "title": "Pan", count: -1 }
 ]
 
 DELETE /api/v1/counter
-Body: { "id":: "qwer" }
+Body: { "id": "qwer" }
 Response:
 [
-	{ "id":: "asdf", "title": "Cafe", count: 1 }
+	{ "id": "asdf", "title": "Cafe", count: 1 }
 ]
 
 GET /api/v1/counters
 Response:
 [
-	{ "id":: "asdf", "title": "Cafe", count: 1 },
+	{ "id": "asdf", "title": "Cafe", count: 1 },
 ]
 ```
 
