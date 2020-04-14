@@ -51,6 +51,8 @@ Un posible diseño de aplicación podría ser:
 ## Para instalar el servidor
 
 ```
+$ git clone https://github.com/jsngonzalez/pruebaDesarrolloWG.git
+$ cd pruebaDesarrolloWG
 $ npm install
 $ npm start
 ```
