@@ -49,7 +49,8 @@ Un posible diseño de aplicación podría ser:
 **Recuerda**: la interfaz de usuario es muy importante. En caso de duda, use elementos UIKit nativos. No construyas nada que no se sienta bien para iOS.
 
 ## Para instalar el servidor
-Para correr el servidor debes instalar node https://bit.ly/nodejswg
+Primero debes instalar node (https://bit.ly/nodejswg) si ya lo tienes instalado, puedes continuar.
+
 ```
 $ git clone https://github.com/jsngonzalez/pruebaDesarrolloWG.git
 $ cd pruebaDesarrolloWG
