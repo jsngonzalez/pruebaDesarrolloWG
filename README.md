@@ -5,19 +5,19 @@ Deberá crear un repositorio privado de GitHub utilizando la información que pr
 Si tiene dudas puede escribir a: jgonzalez@wigilabs.com
 
 ## La prueba
-Crea una aplicación iOS simple para contar cosas. Deberá cumplir con las altas expectativas de calidad y funcionalidad. Debe cumplir al menos con lo siguiente:
+Crea una aplicación iOS simple para contar cosas. Deberá cumplir con las altas expectativas de cal"id":ad y funcional"id":ad. Debe cumplir al menos con lo siguiente:
 
 * Agregar un contador con nombre a una lista de contadores.
 * Incrementar cualquiera de los contadores.
 * Disminuir cualquiera de los contadores.
 * Eliminar un contador.
 * Mostrar una suma de todos los valores del contador.
-* Datos persistentes de vuelta al servidor.
+* Datos persistentes de vuelta al serv"id":or.
 * No debe **sentirse** como un ejercicio de aprendizaje. Piensa que estás construyendo esto para la App Store.
 
 Notas:
 
-* Mostrar las capacidades de los marcos UIKit y Core es **esencial**.
+* Mostrar las capac"id":ades de los marcos UIKit y Core es **esencial**.
 * El internet no es confiable. Manejar errores.
 * Esta no es una prueba de fondo, no haga que requiera ninguna base de datos.
 * Puede usar Swift 4 y la última versión beta de Xcode.
@@ -48,7 +48,7 @@ Un posible diseño de aplicación podría ser:
 
 **Recuerda**: la interfaz de usuario es muy importante. En caso de duda, use elementos UIKit nativos. No construyas nada que no se sienta bien para iOS.
 
-## Para instalar el servidor
+## Para instalar el serv"id":or
 
 ```
 $ git clone https://github.com/jsngonzalez/pruebaDesarrolloWG.git
@@ -59,44 +59,56 @@ $ npm start
 
 ## API endpoints / ejemplos
 
-Los siguientes endpoints esperan un contenido `Content-Type: application/json` 
+Los siguientes endpoints esperan un conten"id":o `Content-Type: application/json` 
 
 ```
 GET /api/v1/counters
+Response:
 [
 ]
 
-POST { title: "Cafe" } /api/v1/counter
+POST /api/v1/counter
+Body: { "title": "Cafe" }
+Response:
 [
-	{ id: "adsf", title: "Cafe", count: 0 }
+	{ "id":: "adsf", "title": "Cafe", count: 0 }
 ]
 
-POST { title: "Pan" } /api/v1/counter
+POST /api/v1/counter
+Body: { "title": "Pan" }
+Response:
 [
-	{ id: "asdf", title: "Cafe", count: 0 },
-	{ id: "qwer", title: "Pan", count: 0 }
+	{ "id":: "asdf", "title": "Cafe", count: 0 },
+	{ "id":: "qwer", "title": "Pan", count: 0 }
 ]
 
-POST { id: "asdf" } /api/v1/counter/inc
+POST /api/v1/counter/inc
+Body: { "id":: "asdf" }
+Response:
 [
-	{ id: "asdf", title: "Cafe", count: 1 },
-	{ id: "qwer", title: "Pan", count: 0 }
+	{ "id":: "asdf", "title": "Cafe", count: 1 },
+	{ "id":: "qwer", "title": "Pan", count: 0 }
 ]
 
-POST { id: "qwer"} /api/v1/counter/dec
+POST /api/v1/counter/dec
+Body: { "id":: "qwer"}
+Response:
 [
-	{ id: "asdf", title: "Cafe", count: 1 },
-	{ id: "qwer", title: "Pan", count: -1 }
+	{ "id":: "asdf", "title": "Cafe", count: 1 },
+	{ "id":: "qwer", "title": "Pan", count: -1 }
 ]
 
-DELETE { id: "qwer" } /api/v1/counter
+DELETE /api/v1/counter
+Body: { "id":: "qwer" }
+Response:
 [
-	{ id: "asdf", title: "Cafe", count: 1 }
+	{ "id":: "asdf", "title": "Cafe", count: 1 }
 ]
 
 GET /api/v1/counters
+Response:
 [
-	{ id: "asdf", title: "Cafe", count: 1 },
+	{ "id":: "asdf", "title": "Cafe", count: 1 },
 ]
 ```
 
