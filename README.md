@@ -1,23 +1,23 @@
 # Prueba de desarrollo wigilabs
 
 ## Antes de que empieces
-Deberá crear un repositorio privado de GitHub utilizando la información que proporcionamos en este archivo README e invitar como colaboradores: @jsngonzalez
-Si tiene dudas puede escribir a: jgonzalez@wigilabs.com
+Deberás crear un repositorio privado de GitHub utilizando la información que proporcionamos en este archivo README e invitar como colaboradores: @jsngonzalez
+Si tienes dudas puede escribir a: jgonzalez@wigilabs.com
 
 ## La prueba
-Crea una aplicación iOS simple para contar cosas. Deberá cumplir con las altas expectativas de cal"id":ad y funcional"id":ad. Debe cumplir al menos con lo siguiente:
+Crea una aplicación iOS simple para contar cosas. Deberás cumplir con las altas expectativas de calidad y funcionalidad. Debes cumplir al menos con lo siguiente:
 
 * Agregar un contador con nombre a una lista de contadores.
 * Incrementar cualquiera de los contadores.
 * Disminuir cualquiera de los contadores.
 * Eliminar un contador.
 * Mostrar una suma de todos los valores del contador.
-* Datos persistentes de vuelta al serv"id":or.
+* Datos persistentes de vuelta al servidor.
 * No debe **sentirse** como un ejercicio de aprendizaje. Piensa que estás construyendo esto para la App Store.
 
 Notas:
 
-* Mostrar las capac"id":ades de los marcos UIKit y Core es **esencial**.
+* Mostrar las capacidades de los marcos UIKit y Core es **esencial**.
 * El internet no es confiable. Manejar errores.
 * Esta no es una prueba de fondo, no haga que requiera ninguna base de datos.
 * Puede usar Swift 4 y la última versión beta de Xcode.
@@ -42,13 +42,13 @@ Un posible diseño de aplicación podría ser:
 | ensalada              15 [-|+] |
 +--------------------------------+
 +--------------------------------+
-| [↑]                  Total: 21 |
+|                      Total: 21 |
 +--------------------------------+
 ```
 
 **Recuerda**: la interfaz de usuario es muy importante. En caso de duda, use elementos UIKit nativos. No construyas nada que no se sienta bien para iOS.
 
-## Para instalar el serv"id":or
+## Para instalar el servidor
 
 ```
 $ git clone https://github.com/jsngonzalez/pruebaDesarrolloWG.git
@@ -59,7 +59,7 @@ $ npm start
 
 ## API endpoints / ejemplos
 
-Los siguientes endpoints esperan un conten"id":o `Content-Type: application/json` 
+Los siguientes endpoints esperan un contenido `Content-Type: application/json` 
 
 ```
 GET /api/v1/counters
